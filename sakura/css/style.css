@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 85vh;
+    background: url('images/header/header-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 85vh;
+    background: rgba(0,0,0,0.2);
+    padding: 20px 25px;
+}
+.logo_1 , .logo_2{
+    display: inline-block;
+}
+.logo_1 img{
+    margin-left: 420px;
+    width: 250px;
+}
+.logo_2 img{
+    margin-left: 320px;
+    width: 15px;
+}
+.logo_2 span{
+    color: rgb(255, 255, 255);
+    vertical-align: super;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.square{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    padding: 60px 0;
+    transform: translate(-50%, -50%);
+    border: 25px solid rgb(255, 213, 0);
+    display: inline-block;
+    text-align: center;
+}
+.hostel{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: -16px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.15px;
+}
+.square h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.15px;
+}
+.square_p1 {
+    text-transform: uppercase;
+    margin: 9px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+.square_p2{
+    color: rgb(255, 255, 255);
+}
+.square_p2 span{
+    color: rgb(255, 213, 0);
+}
+.phone{
+    margin: 25px 0 1px 0;
+}
+.square a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    vertical-align: super;
+}
+.square button {
+    padding: 10px 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    background: rgb(255, 213, 0);
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+    transition: .6s;
+}
+.square button:hover{
+    transform: scale(1.02);
+    background: rgb(14, 14, 14);
+    color: rgb(255, 213, 0);
+}
+
+/* section */
+section{
+    height: 50vh;
+}
+.section{
+    padding: 20px 300px;
+}
+.letter_spacing{
+    letter-spacing: -2.5px;
+}
+.section h2{
+    display: inline-block;
+    margin-left: 20px;
+    letter-spacing: 1.15px;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.section p{
+    margin-left: 70px;
+    font-size: 15px;
+    color: #505050;
+    letter-spacing: .4px;
+    margin-left: 70px;
+}
+.cols_3{
+    text-align: center;
+}
+.col1{
+    display: inline-block;
+    width: 30%;
+    margin: 30px 0;
+}
+.col1 img{
+    width: 80px;
+}
+.col1 p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 60px;
+    margin-bottom: -9px;
+}
+.col1 span{
+    font-weight: 600;
+}
+
+
+/* main */
+
+.about_sakura{
+    padding: 50px 300px;
+    text-transform: uppercase;
+}
+.about_sakura h2 {
+    display: inline-block;
+    margin-left: 20px;
+    letter-spacing: 1.15px;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.about_sakura p {
+    margin-left: 70px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #1d1d1d;
+    letter-spacing: .4px;
+    margin-left: 80px;
+    display: inline-block;
+}
+.yellow_block{
+    border: 9px solid rgb(255, 213, 0);
+    margin-left: 250px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.room_cols{
+    margin: 20px 250px;
+    text-align: left;
+}
+.r_cols .right_text{
+    margin-left: 35px;
+}
+.r_cols img{
+    display: inline-block;
+    width: 49%;
+    height: 300px;
+}
+.right_text{
+    width: 42%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.right_text h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.right_text p {
+    color: #505050;
+}
+.right_text .mt_p{
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.right_text .p{
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.right_text .span{
+    border: 5px solid rgb(255, 213, 0);
+    font-weight: 500;
+    font-size: 19px;
+    padding: 4px 8px;
+}
+
+
+.yellow_block2{
+    border: 7px solid rgb(255, 213, 0);
+    position: absolute;
+    top: 1520px;
+    left: 210px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.r_cols2{
+    margin-top: 100px;
+}
+.r_cols2 img{
+    display: inline-block;
+    width: 49%;
+    height: 300px;
+    margin-left: 50px;
+}
+.r_cols2 .span2{
+    border: 5px solid rgb(255, 213, 0);
+    font-weight: 500;
+    font-size: 19px;
+    padding: 6px 10px;
+}
+
+.right_text .p2{
+    color: #000;
+    font-weight: 600;
+    margin: -14px 0 30px 0;
+}
+
+.right_text .mb_p{
+    margin: -20px 0 25px 0;
+}
+
+.right_text .mt_p2{
+    margin: 8px 0 20px 0;
+}
+
+.r_cols3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.r_cols3 img{
+    display: inline-block;
+    width: 49%;
+    height: 300px;
+}
+
+.r_cols3 h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.r_cols3 .right_text{
+    margin-left: 55px;
+}
+.r_cols3 .p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.r_cols3 .span3{
+    border: 5px solid rgb(255, 213, 0);
+    font-weight: 500;
+    font-size: 19px;
+    padding: 6px 10px;
+}
+
+.yellow_block3{
+    border: 9px solid rgb(255, 213, 0);
+    position: absolute;
+    top: 2290px;
+    left: 720px;
+    width: 60px;
+    height: 60px;
+}
+
+
+/* about hostel */
+
+.about_hostel{
+    padding: 40px 300px;
+}
+
+.about_hostel h2{
+    display: inline-block;
+    margin-left: 20px;
+    letter-spacing: 1.15px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hostel_cols{
+    padding: 15px 100px;
+}
+.hostel_col{
+    white-space: normal;	
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+.hostel_col img{
+    width: 30px;
+}
+.hostel_col p {
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: super;
+    margin-top: 10px;
+}
+.hostel_col p span{
+    font-weight: 300;
+    color: #505050;
+    font-size: 12px;
+}
+
+.wifi_img{
+    margin-bottom: 5px;
+}
+
+.map_img{
+    margin-bottom: 5px;
+}
+
+.stena_img{
+    margin-bottom: 6px;
+}
+
+.dog_img{
+    margin-bottom: 19px;
+    width: 40px;
+}
+
+.hostel_col2{
+    white-space: normal;	
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+    margin-left: 100px;
+}
+
+.hostel_col2 img{
+    width: 30px;
+}
+.hostel_col2 p {
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 17px;
+    vertical-align: super;
+}
+.hostel_col2 p span{
+    font-weight: 300;
+    color: #505050;
+    font-size: 12px;
+}
+.hostel_col2 .okna_img {
+    width: 35px;
+    margin-bottom: 10px;
+}
+.hostel_col2 .babki_img{
+    width: 35px;
+    margin-bottom: 2px;
+}
+.hostel_col2 .heating_img{
+    width: 36px;
+    margin-bottom: 2px;
+}
+.hostel_col2 .dvor_img{ 
+    width: 38px;
+    margin-bottom: 3px;
+}
+.button{
+    text-align: center;
+    padding: 20px 0;
+}
+.button a{
+    text-decoration: none;
+}
+.button button {
+    padding: 10px 50px;
+    border: none;
+    background: rgb(255, 213, 0);
+    color: #000;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .4s;
+}
+.button button:hover{
+    background: rgb(227, 189, 0);
+}
+
+.about_hostel hr{
+    margin: 40px 90px 0 90px;
+}
+
+.map{
+    width: 100%;
+    padding-left: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.map iframe{
+    width: 80%;
+    height: 500px;
+    padding: 30px 0 30px 0;
+    filter: invert(100%);
+}
